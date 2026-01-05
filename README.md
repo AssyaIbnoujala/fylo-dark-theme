@@ -11,8 +11,9 @@ Stored in `public/assets/images/`
 
 | | | |
 |---|---|---|
-| ![](assets/images/ds1.png) | ![](assets/images/ds2.png) | ![](assets/images/ds3.png) |
-| ![](assets/images/ds4.png) | ![](assets/images/ds5.png) | ![](assets/images/mb.png) |
+| ![](public/assets/images/ds1.png) | ![](public/assets/images/ds2.png) | ![](public/assets/images/ds3.png) |
+| ![](public/assets/images/ds4.png) | ![](public/assets/images/ds5.png) | ![](public/assets/images/mb.png) |
+
 
 ## Run
 ```bash
