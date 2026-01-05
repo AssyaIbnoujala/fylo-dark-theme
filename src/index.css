@@ -1,0 +1,74 @@
+@import "tailwindcss";
+/* Theme Variables */
+@theme {
+  --color-navy-800: hsl(219, 30%, 18%);
+  --color-navy-850: hsl(217, 28%, 15%);
+  --color-navy-900: hsl(218, 28%, 13%);
+  --color-navy-950: hsl(216, 53%, 9%);
+  --color-teal-200: hsl(176, 68%, 64%);
+  --color-cyan-500: hsl(198, 60%, 50%);
+  --color-red-500: hsl(0, 100%, 63%);
+  --color-white: hsl(0, 0%, 100%);
+/* =================================================== */
+  --breakpoint-sm: 578px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+
+  --animate-move-right: moveRight 1s ease-in-out infinite;
+
+}
+
+@utility container {
+  padding-inline: 30px;
+  margin-inline: auto;
+}
+@utility element-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@utility btn {
+  background-color: var(--color-teal-200);
+  transition: all 200ms ease;
+
+  @variant hover {
+    background-color: #8cdae4;
+  }
+}
+
+@keyframes moveRight {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color:var(--color-navy-850); 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@theme {
+  --color-main: #7f1d1d;
+  --font-display: "Satoshi", sans-serif;
+}
+
+@utility text-main {
+  color: var(--color-main);
+}
+
+@utility font-display {
+  font-family: var(--font-display);
+} */
