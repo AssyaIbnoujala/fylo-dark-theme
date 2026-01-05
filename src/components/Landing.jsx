@@ -8,7 +8,7 @@ function Landing() {
       
       <div className='w-[800px] max-w-full mb-6'>
         <img 
-          src="/src/assets/images/illustration-intro.png" 
+          src="/assets/images/illustration-intro.png" 
           alt=""
           className='w-full h-auto'
         />
@@ -48,14 +48,14 @@ function Landing() {
 
     {/*mobile*/}
     <img
-      src="/src/assets/images/bg-curvy-mobile.svg"
+      src="/assets/images/bg-curvy-mobile.svg"
       alt="bg curvy mobile"
       className="w-full h-[950px] block md:hidden object-contain absolute bottom-0"
     />
 
     {/*desktop*/}
     <img
-      src="/src/assets/images/bg-curvy-desktop.svg"
+      src="/assets/images/bg-curvy-desktop.svg"
       alt="bg curvy desktop"
       className="w-full h-auto hidden md:block"
     />

@@ -18,12 +18,12 @@ function Footer() {
     <section className="bg-[var(--color-navy-950)] pt-[320px] md:pt-[200px] pb-[100px] text-white">
           <div className=" container">
               <a href="/">
-                <img src="/src/assets/images/logo.svg" alt="log-img"
+                <img src="/assets/images/logo.svg" alt="log-img"
                 className="w-[175px] h-[66px] object-contain" />
               </a>
             <div className="mt-[30px] flex justify-between flex-wrap flex-col md:flex-row gap-[30px]">
                <div className="flex items-start gap-[15px] w-[340px] max-w-full">
-                   <img src="/src/assets/images/icon-location.svg" alt="location-img" 
+                   <img src="/assets/images/icon-location.svg" alt="location-img" 
                         className="w-[18px] h-[18px] object-contain"
                    />
                    <p className="font-normal text-sm tracking-[0.8px]">
@@ -36,7 +36,7 @@ function Footer() {
                       <div key={item.text}
                             className="flex items-center gap-[15px] mb-[15px] last-of-type:mb-0"      
                       >
-                        <img src={`/src/assets/images/${item.icon}`} alt="icon" 
+                        <img src={`/assets/images/${item.icon}`} alt="icon" 
                              className="w-[18px] h-[18px] object-contain"
                         />
                         <p>{item.text}</p>
